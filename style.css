@@ -1,3 +1,14 @@
-body {
+.container {
   background-color: #ffc0cb;
+  border: 1px solid black;
+}
+
+.col_1 {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.col_12 {
+  border: 1px solid black;
+  text-align: center;
 }
