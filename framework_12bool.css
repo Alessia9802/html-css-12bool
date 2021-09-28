@@ -17,10 +17,6 @@
   flex-direction: row;
 }
 
-[class^="col"] {
-  padding: 0.5rem;
-}
-
 /* Extra small devices */
 .col {
   flex-grow: 1;
@@ -56,6 +52,7 @@
 
 .col_6 {
   width: 50%;
+  display: flex;
 }
 
 .col_6_nested {

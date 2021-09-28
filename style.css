@@ -9,7 +9,27 @@
   padding: 3rem 0rem;
 }
 
+.col_1 {
+  padding-top: 61px;
+  padding-bottom: 61px;
+}
+
 .col_2_nested {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.col_6,
+.col_6_nested {
+  justify-content: center;
+  align-content: flex-start;
+}
+
+.col_2_nested,
+.col_6_nested,
+.col_8_nested {
+  background-color: #f07f80;
+  border: 1px solid white;
+  text-align: center;
+  margin-left: 1px;
 }
