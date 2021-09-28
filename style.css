@@ -3,12 +3,13 @@
   border: 1px solid black;
 }
 
-.col_1 {
+[class^="col"] {
   border: 1px solid black;
   text-align: center;
+  padding: 3rem 0rem;
 }
 
-.col_12 {
-  border: 1px solid black;
-  text-align: center;
+.col_2_nested {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
