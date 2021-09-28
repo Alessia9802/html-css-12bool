@@ -6,23 +6,19 @@
 [class^="col"] {
   border: 1px solid black;
   text-align: center;
-  padding: 3rem 0rem;
 }
 
-.col_1 {
-  padding-top: 61px;
-  padding-bottom: 61px;
+.col_1,
+.col_12,
+.col_8,
+.col_2 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
-.col_2_nested {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.col_6,
-.col_6_nested {
+.col_6 {
   justify-content: center;
-  align-content: flex-start;
+  align-items: center;
 }
 
 .col_2_nested,
@@ -32,4 +28,7 @@
   border: 1px solid white;
   text-align: center;
   margin-left: 1px;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  justify-content: center;
 }
